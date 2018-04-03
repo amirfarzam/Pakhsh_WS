@@ -57,7 +57,7 @@ exports.performaction = function (params, callback) {
 var config = {
     user: 'sa',
     password: '123',
-    server: '127.0.0.1',
+    server: '192.168.1.53',
     port: 1433,
     database: 'Pakhsh'
 };
