@@ -58,6 +58,6 @@ router.all('/', function (req, res) {
                     message: CONSTANT.ErrorFormat.Sign_In_Error
                 }, res);
         });
-    })
+    });
 });
 module.exports = router;
